@@ -7,3 +7,15 @@ body {
     font-size: 17px;
     background-color: var(--cor-fundo-paginas);
 }
+.titulo-secao {
+    text-transform: uppercase;
+    color: var(--cor-fundo-menu);
+}
+label {
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 470px) {
+    .titulo-secao {
+        text-align: center;
+    }
+}
