@@ -1,0 +1,9 @@
+:root {
+    --cor-fundo-paginas: #f5f6fa;
+    --cor-fundo-menu: #005057;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    background-color: var(--cor-fundo-paginas);
+}

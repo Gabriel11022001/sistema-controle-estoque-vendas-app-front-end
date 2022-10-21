@@ -1,0 +1,23 @@
+.navbar {
+    padding: 20px 40px;
+    background-color: var(--cor-fundo-menu);
+}
+.navbar-dark .collapse .navbar-nav .nav-item .nav-link:link {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.navbar-dark .collapse .navbar-nav .nav-item .nav-link:visited {
+    color: white;
+}
+.navbar-dark .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: var(--cor-fundo-paginas);
+}
+.navbar-dark .collapse .navbar-nav .nav-item .nav-link:active {
+    color: white;
+}
+#link-sair {
+    background-color: red;
+    border-radius: 7px;
+}
