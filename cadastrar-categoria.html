@@ -22,6 +22,17 @@
     <title>Sistema para controle de estoque e vendas - Cadastro de categoria</title>
 </head>
 <body>
+    <!-- Tela de load -->
+    <div class="load inativo">
+        <img src="imagens/icone-load.gif" alt="Ícone de load...">
+    </div>
+    <!-- Alerta -->
+    <div class="alerta desativado">
+        <div class="alerta-corpo" role="alert">
+            <p class="mensagem-alerta"></p>
+            <button type="button" class="btn btn-danger" id="btn-fechar-alerta">Fechar <i class="bi bi-x-lg"></i></button>
+        </div>
+    </div>
     <!-- Cabeçalho com menu de navegação -->
     <header>
         <!-- Menu de navegação -->
@@ -98,14 +109,17 @@
                         </select>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-success">Salvar <i class="bi bi-plus-lg"></i></button>
+                <button type="submit" class="btn btn-success" id="btn-cadastrar-categoria">Salvar <i class="bi bi-plus-lg"></i></button>
             </form>
         </section>
     </main>
     <!-- ========== Carregando os arquivos JavaScript ========== -->
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/controlar-tela-load.js"></script>
     <script src="js/validar-formulario.js"></script>
+    <script src="js/cadastrar-categoria-produto.js"></script>
+    <script src="js/controlar-alerta.js"></script>
     <!-- ======================================================= -->
 </body>
 </html>

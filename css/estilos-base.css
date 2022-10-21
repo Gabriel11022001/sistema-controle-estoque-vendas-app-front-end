@@ -1,6 +1,7 @@
 :root {
     --cor-fundo-paginas: #f5f6fa;
     --cor-fundo-menu: #005057;
+    --cor-fundo-tela-load: rgba(10, 61, 98, 0.8);
 }
 body {
     font-family: 'Roboto', sans-serif;

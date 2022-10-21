@@ -1,0 +1,42 @@
+.alerta {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999999999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    background-color: var(--cor-fundo-tela-load);
+}
+.alerta.ativo {
+    transform: translateX(0);
+}
+.alerta.desativado {
+    transform: translateX(-100%);
+}
+.alerta-corpo {
+    width: 40%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.mensagem-alerta {
+    text-transform: uppercase;
+    text-align: center;
+}
+.msg-sucesso {
+    color: green;
+}
+.msg-erro {
+    color: red;
+}
+@media only screen and (max-width: 475px) {
+    .alerta-corpo {
+        width: 80%;
+    }
+}
